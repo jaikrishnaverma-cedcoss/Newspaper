@@ -79,10 +79,8 @@ header {
       }
     }
 
-    .img {
+    .section__img {
         width: 56%;
-        background-color: #b8b8b8;
-        background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=740&t=st=1670323163~exp=1670323763~hmac=bb15e199e0e23cd0d9412983424ae35b7fbc144b794e674a0007b04f5be4f1a3');
         background-image: url('https://img.freepik.com/premium-photo/watercolor-background-grey-watercolour-painting-textured-design-white-paper-background_7190-3250.jpg?w=2000');
         filter: invert(1);
     }
@@ -94,7 +92,7 @@ header {
     .section__news {
        width: 56%;
     }
-    .img {
+    .section__img {
         width: 40%;
     }
 }
@@ -153,12 +151,12 @@ header {
     }
 
     .container__mainhead {
-        line-height: 1.3;
+        line-height: 1.35;
         padding: 15px 0px;
 
         .section__news {
             h2 {
-               font-size: 13px;
+               font-size: 16px;
             }
             h5 {
                 margin: 6px 0px;
@@ -182,11 +180,11 @@ header {
   }
   .container {
       padding: 10px 30px;
-      max-width: 100%;
+      max-width: 90%;
       border: 1px solid grey;
   }
   .container__section h1 {
-      font-size: 15vw;
+      font-size: 13vw;
   }
 
 

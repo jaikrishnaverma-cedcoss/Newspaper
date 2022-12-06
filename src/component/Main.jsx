@@ -14,7 +14,7 @@ const Main = () => {
           <h1>NEWSPAPER</h1>
         </section>
 
-        <section className='container__mainhead mainhead--Second row flexSB '>
+        <section className='container__mainhead row flexSB mainhead--Second  '>
           <div className="section__news">
             <h2>LOREM IPSUM DOLOR SIT, AMET CONSECTETUR ADIPISICING SAEPE!</h2>
             <h5>18 JUNE 2022</h5>
@@ -22,11 +22,11 @@ const Main = () => {
               ducimus iste at labore, recusandae enim consectetur facere sunt asperiores officia molestias,
                eveniet natus similique inventore aut laborum incidunt delectus aliquam.</p>
           </div>
-          <div className="img"></div>
+          <div className="section__img"></div>
         </section>
 
         <section className='container__mainhead mainhead--Third row flexSB'>
-          <div className="img"></div>
+          <div className="section__img"></div>
           <div className="section__news">
             <h2>LOREM IPSUM DOLOR SIT, AMET CONSECTETUR ADIPISICING SAEPE!</h2>
             <h5>18 JUNE 2022</h5>
