@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: flex;
+}
+
+
+.flexSB {
+   justify-content: space-between;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    padding: 10px 30px;
+    max-width: 700px;
+    width: 100%;
+    margin: 5px;
+    // border: 1px solid grey;
+    background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=740&t=st=1670323163~exp=1670323763~hmac=bb15e199e0e23cd0d9412983424ae35b7fbc144b794e674a0007b04f5be4f1a3');
+}
+
+
+header {
+    margin-top: 3px;
+    padding: 4px 2px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.container__section {
+    border-bottom: 2px solid black;
+
+    h1 {
+         font-size: 102px;
+    }
+}
+
+
+.container__mainhead {
+    border-bottom: 2px solid black;
+    line-height: 1.5;
+    padding: 15px 0px;
+
+    .section__news {
+        width: 40%;
+        h2 {
+          font-size: 20px;
+        }
+
+        h5 {
+          margin: 8px 0px;
+        }
+
+        p {
+          text-align: justify;
+          font-size: 15px;
+      }
+    }
+
+    .img {
+        width: 56%;
+        background-color: #b8b8b8;
+        background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=740&t=st=1670323163~exp=1670323763~hmac=bb15e199e0e23cd0d9412983424ae35b7fbc144b794e674a0007b04f5be4f1a3');
+       filter: invert(1);
+    }
+}
+
+
+.mainhead--Third {
+    line-height: 1.5;
+    .section__news {
+       width: 56%;
+    }
+    .img {
+        width: 40%;
+    }
+}
+
+.mainhead--Fourth {
+    border-bottom: 0px;
+    .section__news {
+        width: 31%;
+        h2 {
+            margin: 10px 0px;
+        }
+    }
+}
+
+
+// /* Extra mini small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+  header h2 {
+      font-size: 13px;
+  }
+  .container__section h1 {
+      font-size: 50px;
+  }
+
+  .container__mainhead {
+      line-height: 1;
+      padding: 15px 0px;
+
+      .section__news {
+          h2 {
+            font-size: 12px;
+          }
+
+          h5 {
+            margin: 6px 0px;
+            font-size: 12px;
+          }
+
+          p {
+            text-align: justify;
+            font-size: 11px;
+          }
+      }
+  }
+}
+
+
+
+/* Extra small devices  (phones, 600px and down) */
+@media only screen and (min-width:350px) and (max-width: 600px) {
+    header h2 {
+       font-size: 13px;
+    }
+    .container__section h1 {
+        font-size: 15vw;
+    }
+
+    .container__mainhead {
+        line-height: 1.3;
+        padding: 15px 0px;
+
+        .section__news {
+            h2 {
+               font-size: 13px;
+            }
+            h5 {
+                margin: 6px 0px;
+                font-size: 12px;
+            }
+            p {
+                text-align: justify;
+                font-size: 12px;
+            }
+      }
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:767px) {
+
+  header h2 {
+     font-size: 20px;
+  }
+  .container {
+      padding: 10px 30px;
+      max-width: 100%;
+      border: 1px solid grey;
+  }
+  .container__section h1 {
+      font-size: 15vw;
+  }
+
+
+  
+}
+
