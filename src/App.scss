@@ -3,24 +3,21 @@
     padding: 0px;
     font-family: cursive;
     box-sizing: border-box;
+    color: rgb(34, 32, 32);
 }
-
 
 .row {
     display: flex;
 }
 
-
 .flexSB {
    justify-content: space-between;
 }
-
 
 .col {
     display: flex;
     flex-direction: column;
 }
-
 
 body {
     width: 100%;
@@ -28,7 +25,7 @@ body {
     justify-content: center;
 }
 
-
+// outer container css
 .container {
     padding: 10px 30px;
     max-width: 700px;
@@ -38,7 +35,7 @@ body {
     background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=740&t=st=1670323163~exp=1670323763~hmac=bb15e199e0e23cd0d9412983424ae35b7fbc144b794e674a0007b04f5be4f1a3');
 }
 
-
+// header css here
 header {
     margin-top: 3px;
     padding: 4px 2px;
@@ -48,8 +45,8 @@ header {
     border-bottom: 2px solid black;
 }
 
-
-.container__section {
+// first section of container
+.firstSection {
     border-bottom: 2px solid black;
 
     h1 {
@@ -57,13 +54,13 @@ header {
     }
 }
 
-
-.container__mainhead {
+// section main head
+.mainhead {
     border-bottom: 2px solid black;
     line-height: 1.5;
     padding: 15px 0px;
 
-    .section__news {
+    .mainhead__news {
         width: 40%;
         h2 {
           font-size: 20px;
@@ -79,27 +76,28 @@ header {
       }
     }
 
-    .section__img {
+    .mainhead__img {
         width: 56%;
         background-image: url('https://img.freepik.com/premium-photo/watercolor-background-grey-watercolour-painting-textured-design-white-paper-background_7190-3250.jpg?w=2000');
         filter: invert(1);
     }
 }
 
-
+// thired main head section 
 .mainhead--Third {
     line-height: 1.5;
-    .section__news {
+    .mainhead__news {
        width: 56%;
     }
-    .section__img {
+    .mainhead__img {
         width: 40%;
     }
 }
 
+// third main head section
 .mainhead--Fourth {
     border-bottom: 0px;
-    .section__news {
+    .mainhead__news {
         width: 31%;
         h2 {
             margin: 10px 0px;
@@ -107,21 +105,20 @@ header {
     }
 }
 
-
 // /* Extra mini small devices (phones, 350px and down) */
 @media only screen and (max-width: 350px) {
   header h2 {
       font-size: 13px;
   }
-  .container__section h1 {
+  .firstSection h1 {
       font-size: 50px;
   }
 
-  .container__mainhead {
+  .mainhead {
       line-height: 1;
       padding: 15px 0px;
 
-      .section__news {
+      .mainhead__news {
           h2 {
             font-size: 12px;
           }
@@ -139,22 +136,20 @@ header {
   }
 }
 
-
-
 /* Extra small devices  (phones, 600px and down) */
 @media only screen and (min-width:350px) and (max-width: 600px) {
     header h2 {
        font-size: 13px;
     }
-    .container__section h1 {
+    .firstSection h1 {
         font-size: 15vw;
     }
 
-    .container__mainhead {
+    .mainhead {
         line-height: 1.35;
         padding: 15px 0px;
 
-        .section__news {
+        .mainhead__news {
             h2 {
                font-size: 16px;
             }
@@ -170,11 +165,8 @@ header {
     }
 }
 
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width:767px) {
-
   header h2 {
      font-size: 20px;
   }
@@ -183,11 +175,8 @@ header {
       max-width: 90%;
       border: 1px solid grey;
   }
-  .container__section h1 {
+  .firstSection h1 {
       font-size: 13vw;
   }
-
-
-  
 }
 
